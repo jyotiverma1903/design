@@ -17,6 +17,8 @@ span {
 body {
   background: url("background.jpg") no-repeat fixed center;
   background-size: cover;
+  width: 100%;
+height: 100%;
 }
 
 .fa-2x {
@@ -680,7 +682,14 @@ body {
 }
 
 .fa-camera-retro { line-height: inherit;}
-
+.profile-heading {
+  padding: 8px 16px 10px 15px ;
+  margin: 0 ;
+  height: 100px;
+  width: 100%;
+  background-color: #00bfa5;
+  z-index: 1001;
+}
 
 .edit_pensil {
   padding: auto ;
@@ -699,6 +708,7 @@ body {
 .profile_name_edit {
   padding: 10px ;
   font-weight: bold;
+  position: relative;
 
 }
 
